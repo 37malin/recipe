@@ -1,0 +1,60 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+header {
+  height: 30px;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #e3dcca;
+}
+
+#global-header .header-inner{
+  position: relative;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.header-container .header-inner {
+  margin: 0 auto;
+  text-align: left;
+  width: 970px;
+}
+
+
+#global-header .header-left{
+  font-size: 93%;
+  float: left;
+  height: 34px;
+  margin: 0;
+}
+
+.header-left {
+  float: left;
+  color: #976F50;
+}
+
+.header-left li{
+  float: left;
+  padding: 6px 8px;
+}
+
+
+.header-left a{
+  color: #976F50;
+  font-size: 14px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 70px;
+}
+
+.header-right li {
+  float: right;
+  font-size: 93%;
+  padding: 6px 10px;
+}
+

@@ -1,0 +1,311 @@
+    
+      
+    <div id="wrapper">
+      <div id="container">
+          <div class="contents">
+            <div class="box" id="recomend">
+              <h2 class="title-border">おすすめ</h2>
+                <div class="contents-top">
+                  <div class="left-contents">
+                    <h3 class="rich-title">レシピ関連サービス</h3>
+                    <ul>
+                      <li>みんなのレシピ</li>
+                      <li>プロのレシピ</li>
+                      <li>献立</li>
+                      <li>動画</li>
+                      <li>話題のキッチン</li>
+                    </ul>
+                    <h3 class="rich-title">その他サービス</h3>
+                    <ul>
+                      <li>ランキング</li>
+                      <li>ニュース</li>
+                      <li>プレミアム</li>
+                    </ul>
+                  </div>
+                  <div class="right-contents">
+                    <div class="pickup-image">
+                      <%= image_tag('pickup-image1.jpg') %>
+                    </div>  
+                    <div class="pickup-title">
+                      <div class="left-pickup-title">
+                        <div class="btn-recomend">本日の<br>おすすめ</div>
+                      </div>  
+                      <div class="right-pickup-title">
+                        <ul>
+                         <li><h2>title</h2></li>
+                         <li>username</li>
+                        </ul> 
+                      </div>  
+                    </div>  
+                  </div>
+                </div>  
+            </div>
+            
+            <div class="box" id="recipe">
+              <h2 class="title-border">レシピ</h2>
+              <div class="contents-second">
+                <div class="left-contents-second">
+                  <h3 class="rich-title">アクセスランキング</h3>
+                  <ul class="daily-ranking">
+                    <li class="first-recipe"><%= image_tag('dailyrank1.jpg') %></li>
+                    <li class="recipe"><%= image_tag('dailyrank2.jpg') %></li>
+                    <li class="recipe"><%= image_tag('dailyrank3.jpg') %></li>
+                  </ul>
+                  <p>みんなが見た人気のレシピ２０品</p>
+                </div>
+                
+                <div class="right-contents-second">
+                  <div class="left-border">
+                    <h3 class="rich-title">話題のレシピ</h3>
+                    
+                    <ul class="daily-ranking">
+                      <li class="recipe">
+                        <%= image_tag('wadairecipe1.jpg') %>
+                        <span class="recipe-title">本格的牛肉１００％ハンバーガー</span>
+                        <span class="user-name">by TTTTT</span>
+                      </li>
+                      <li class="recipe">
+                        <%= image_tag('wadairecipe2.jpg') %>
+                        <span class="recipe-title">めんつゆで味付け！玉子焼き♡</span>
+                        <span class="user-name">by AAAAAAAAAAAA</span>
+                      </li>
+                      <li class="recipe">
+                        <%= image_tag('wadairecipe3.jpg') %>
+                        <span class="recipe-title">もっちりドーナツ</span>
+                        <span class="user-name">by DDDDD</span>
+                      </li>
+                    </ul>
+                    <div class="see-more">もっと見る…</div>
+                  </div>
+                  
+                </div>
+                
+                <div class="contents-text">
+                  <h3 class="rich-title">殿堂入りレシピ</h3>
+                  <div class="dendou-recipe">
+                    <p><span class="dendou-text">つくれぽ１０００人以上！</span>殿堂入りパスタ５２品</p>
+                  </div>
+                  <div class="images">
+                    <%= image_tag('dendou1.jpg') %>
+                    <%= image_tag('dendou2.jpg') %>
+                    <%= image_tag('dendou3.jpg') %>
+                  </div>
+                    
+                  <h3 class="rich-title">レシピカテゴリー</h3>
+                  <div class="categories">
+                    <ul>
+                      <li>野菜のおかず</li>
+                      <li>お肉のおかず</li>
+                      <li>魚介のおかず</li>
+                      <li>ご飯もの</li>
+                      <li>パスタ・グラタン</li>
+                      <li>麺</li>
+                      <li>サラダ</li>
+                      <li>スープ</li>
+                      <li>スウィーツ</li>
+                    </ul>
+                  </div>  
+                  <div class="see-more">もっと見る…</div>
+
+                </div>
+
+              </div>  
+            </div>
+            
+            <div class="box" id="kondate">
+              <h2 class="title-border">献立</h2>
+              <div class="contents-third">
+                <div class="left-contents-third">
+                  <h3 class="rich-title">みんなの献立</h3>
+                  <div class="everyone">
+                    <div class="minna">
+                      <%= image_tag('minna.jpg') %>
+                      <span class="kondate-title">手土産</span><br>
+                      <span class="user-name">by HHHHH</span>
+                    </div>
+                    <ul class="kondate-categories">
+                      <li class="mini-border">朝ごはん</li>
+                      <li class="mini-border">昼ごはん</li>
+                      <li>夜ごはん</li>
+                    </ul>
+                  </div>  
+                </div>
+                <div class="right-contents-third">
+                  <div class="left-border">
+                    <h3 class="rich-title">プレミアム献立</h3>
+                    <div class="everyone">
+                      <div class="minna">
+                        <%= image_tag('puremium.jpg') %>
+                        <ul class="minna-categories">
+                          <li class="thema">今日のテーマ「家計にやさしい」</li>
+                          <li class="kondate-title">✮簡単節約✮豆腐一丁だけ和風グラタン</li>
+                          <li class="user-name">by HHHHH</li>
+                        </ul>
+                      </div>
+                      <ul class="kondate-categories">
+                        <li class="mini-border">
+                          <p><span>つくれぽ</span></p>
+                          <p>１８０人</p>
+                        </li>
+                        <li class="mini-border">
+                          <p><span>調理時間</span></p>
+                          <p>２５分</p>
+                        </li>
+                        <li>
+                          <p><span>カロリー</span></p>
+                          <p>７０７kcal</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="box" id="news">
+              <h2 class="title-border">News</h2>
+              <div class="contents-last">
+                <div class="left-contents-last">
+                  <h3 class="rich-title">最新アクセスランキング</h3>
+                  <div class="access-rankings">
+
+                    <ul>
+                      <li>
+                        <span class="rank">1位</span>
+                        <%= image_tag('latestranking.jpg') %>
+                        <span class="ranks-text">お弁当用☆野菜作りおきおかず</span>
+                      </li>
+                      <li>
+                        <span class="rank">2位</span>
+                        運動会に★唐揚げは◯◯で柔らか
+                      </li>
+                      <li>
+                        <span class="rank">3位</span> 
+                        明日はお月見♪白玉だんご4選
+                      </li>
+                      <li>
+                        <span class="rank">4位</span> 
+                        忙しい人こそ「下味冷凍」で時短
+                      </li>
+                      <li>
+                        <span class="rank">5位</span> 
+                        「塩壺」で塩ガリガリから卒業！
+                      </li>
+                    </ul>
+                    <div class="see-more">もっと見る…</div>
+                  </div>
+                </div>
+                <div class="right-contents-last">
+                  <div class="left-border">
+                    <h3 class="rich-title">週間アクセスランキング</h3>
+                    <div class="access-rankings">
+                      <ul>
+                        <li>
+                          <span class="rank">1位</span>
+                          <%= image_tag('weeklyranking.jpg') %>
+                          <span class="ranks-text">市販シュウマイで時短弁当！</span>
+                          
+                        </li>
+                        <li>
+                          <span class="rank">2位</span>
+                          お月見にフワッフワ白玉を作ろう
+                        </li>
+                        <li>
+                          <span class="rank">3位</span>
+                          キャベツで作れる5分おつまみ
+                        </li>
+                        <li>
+                          <span class="rank">4位</span>
+                          さつまいもだけで「塩系つまみ」
+                        </li>
+                        <li>
+                          <span class="rank">5位</span>
+                          野菜を爆速でサイコロ状に切る！
+                        </li>
+                      </ul>
+                      <div class="see-more">もっと見る…</div>
+                    </div>
+                  </div>  
+                </div>
+              </div>  
+              
+            </div>
+          </div>
+        </div>    
+    </div>
+      
+      
+    
+    <footer>
+      <div id="rich-footer">
+        <div class="footer-container">
+          <div class="grid grid_5_1">
+            <span class="grid-text">レシピをさがす</span>
+            <ul>
+              <li>カテゴリ一覧</li>
+              <li>専門家が選んだ目的別レシピ</li>
+              <li>プロのレシピ</li>
+              <li>話題のレシピ</li>
+              <li>殿堂入りレシピ</li>
+              <li>人気の検索キーワード</li>
+              <li>新着レシピ</li>
+              <li>新着つくれぽ</li>
+              <li>ピックアップレシピ</li>
+              <li>デイリーアクセス数ランキング</li>
+              <li>料理動画</li>
+            </ul>
+          </div>
+          <div class="grid grid_5_2">
+            <span class="grid-text">レシピを書く</span>
+            <li>レシピを書く</li>
+            <li>レシピの書き方について</li>
+          </div>
+          <div class="grid grid_5_3">
+            <span class="grid-text">ニュース</span>
+            <li>Cookpad Do!</li>
+            <li>スマートキッチンサービス</li>
+          </div>
+          <div class="grid grid_5_4">
+            <span class="grid-text">献立</span>
+            <li>みんなの献立</li>
+            <li>プレミアム献立</li>
+          </div>
+          <div class="grid grid_5_5">
+            <span class="grid-text">あなたのページ</span>
+            <li>ユーザー登録</li>
+            <li>ログイン</li>
+          </div>
+        </div>
+      </div>  
+      
+      <div id="rich-footer-bottom">
+        <div class="footer-container-bottom">
+          <div class="footer-links">
+            <div class="footer-title">サービス</div>
+            <ul class="footer-service">
+              <li>ヘルプ</li>
+              <li>利用規約</li>
+              <li>リンクについて</li>
+            </ul>
+            <div class="footer-title">企業情報</div>
+            <ul class="footer-company">
+              <li>運営会社</li>
+              <li>セキュリティ</li>
+              <li>プライバシーポリシー</li>
+              <li>広告掲載</li>
+            </ul>
+            <div class="footer-title">日本</div>
+            <ul class="footer-language">
+              <li>Español</li>
+              <li>English</li>
+              <li>Indonesia</li>
+              <li>...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+

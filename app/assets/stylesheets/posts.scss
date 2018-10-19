@@ -1,0 +1,238 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* posts/show ================================ */
+#post_wrapper {
+  text-align: left;
+  width: 970px;
+  min-width: 970px;
+  margin: 20px auto;
+  background: transparent;
+  position: relative;
+  padding-top: 10px;
+  height: 100%;
+}
+
+
+
+.show_box {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 30px 15px;
+  clear: both;
+  background-color: white;
+  box-shadow: 0 2px 6px #c1ced7;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+
+#show_title h2 {
+  color: #7D940B;
+  font-size: 28px;
+}
+
+#show_title h3 {
+  color: #E0D7C1;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#show_title img {
+  width: 500px;
+  height: 400px;
+  margin: 15px 10px;
+}
+
+.ingredients_list {
+  color: #4C4C4C;
+  font-size: 110%;
+  padding: 5px;
+  margin: 0 50px;
+}
+
+.recipe_step {
+  color: #4C4C4C;
+  font-size: 110%;
+  padding: 5px;
+  margin: 0px 50px;
+}
+
+.recipe_point {
+  margin: 20px;
+}
+
+.edit_destroy {
+  margin: 5px 30px;
+  float: right;
+}
+
+.edit_destroy li {
+  float: left;
+  padding: 10px;
+  font-size: 98%;
+}
+
+.modoru {
+  position: relative;
+  text-align: center;
+}
+
+.back_btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  opacity: 0.8;
+  background-color: #A6BF54;
+  width: 60px;
+  height: 25px;
+  border-radius:5px;
+  font-size: 130%;
+}
+
+/* posts/new ================================ */
+#new {
+  max-width: 650px;
+  margin: 5px auto;
+  padding: 5px 15px;
+  color: #AEB9C4;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.wrapper textarea {
+  font-size: 20px;
+  padding: 10px;
+  min-height: 140px;
+  border: 1px solid rgb(216, 218, 223);
+  resize: none;
+}
+
+.wrapper textarea::-webkit-input-placeholder {
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+#new h2 {
+  margin: 10px 0;
+  
+}
+
+#new .form-body h3 {
+  color: #E0D7C1;
+  font-size: 20px;
+  margin-top: 10px;
+  
+}
+
+
+
+
+/* フォーム================================ */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 2px 6px #c1ced7;
+  border-radius: 5px;
+}
+
+.form-heading {
+  font-weight: 300;
+  margin: 60px 0 20px;
+  font-size: 48px;
+  color: #bcc8d4;
+}
+
+.form-body {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.form-error {
+  color: #ff4d75;
+}
+
+.form input {
+  width: 100%;
+  border: 1px solid #d8dadf;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+.form textarea {
+  width: 523px;
+  min-height: 110px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 5px 10px;
+  padding: 8px;
+  border: 1px solid #d8dadf;
+  border-radius: 5px;
+}
+
+.form input.title {
+  width: 520px;
+  margin: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #7D940B;
+  font-weight: bold;
+}
+
+.form input[type="submit"] {
+  background-color: #FD9940;
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+  width: 120px;
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  float: center;
+  border-radius: 5px;
+}
+
+.form-body:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* posts/index ================================ */
+.recipe_list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.list_box {
+  width: 23%;
+  float: left;
+}
+
+
+#index .list_box {
+  background: #ffffff;
+  border: 1px solid #ded5c0;
+  margin: 8px 4px;
+}
+
+#index img {
+  width: 100%;
+  height: 260px;
+}
+
+#index p {
+  color: #7D940B;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: bold;
+}

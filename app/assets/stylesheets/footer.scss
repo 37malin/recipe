@@ -1,0 +1,95 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+footer {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+
+}
+
+#rich-footer {
+  text-align: left;
+  width: 970px;
+  min-width: 970px;
+  margin: 20px auto;
+  background: transparent;
+  height: 315px;
+}
+
+.footer-container {
+  padding: 6px;
+  color: #745353;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  text-align: left;
+  width: 970px;
+}
+
+#rich-footer .grid {
+  width: 20%;
+  float: left;
+}
+
+#rich-footer .grid-text {
+  font-weight: bold;
+}
+
+#rich-footer .footer-container li {
+  font-size: 86%;
+  padding: 4px 0;
+}
+
+#rich-footer-bottom {
+  text-align: left;
+  width: 970px;
+  min-width: 970px;
+  margin: 20px auto;
+  background: transparent;
+  height: 155px;
+  position: relative;
+  padding-top: 20px;
+  border-top: 1px solid #e8e2d6;
+}
+
+.footer-links {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  width: 80px;
+  height: 100%;
+  font-size: 93%;
+  font-weight: bold;
+  color: #745353;
+}
+
+.footer-service {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  height: 30px;
+}
+
+#rich-footer-bottom li {
+  font-size: 90%;
+  float: left;
+  padding-right: 5px;
+}
+
+.footer-company {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  height: 30px;
+}
+
+.footer-language {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  height: 30px;
+}

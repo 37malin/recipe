@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="top-action top-controller">
+    <header>
+      <div id="global-header" class="header-container">
+        <div class="header-inner">
+          <div class="header-left">
+            <ul class="header-list">
+             <li class="service-index">サービス一覧</li>
+            </ul>
+          </div>
+          <div class="header-right">
+            <ul>
+              <li>ログイン</li>  
+              <li>ユーザー登録</li>
+            </ul>
+        </div>  
+      </div>  
+    </header>
+
+    <div class="main" id="top-search">
+      <div class="header-container">
+        <div class="header-inner">
+          <div class="default-header">
+              　<%= link_to image_tag('logo_header@2x.png'), '/' %>
+              <div class="recipe-count">
+                <p>260万</p>
+              </div>
+              <div class="search-form">
+                <form id="global-search-form" accept-charset="UTF-8" method="get">
+                  <input id="sbox" type="search" name="search" placeholder="キーワードを入力">
+                  <input id="sbtn" type="submit" name="submit" value="検索">
+                </form>
+              </div>
+    
+            <div class="my-menu">
+              <ul class="list-inline">
+                <li class="myfolder">Myフォルダ</li>
+                <li class="btn-recipe"><%= link_to("レシピを書く","/posts/new") %></li>
+              </ul>  
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+      <%= yield %>
+    
+  </body>
+</html>
