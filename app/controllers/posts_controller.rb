@@ -11,8 +11,6 @@ class PostsController < ApplicationController
     @post = Post.new
   end
   
-  def index
-  end
   
   def create
     @post = Post.new(title: params[:title], zairyo: params[:zairyo], step: params[:step])

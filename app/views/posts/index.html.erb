@@ -1,20 +1,14 @@
-<%  posts = [
-  "今日からProgateでRailsの勉強するよー！",
-  "投稿一覧ページ作成中！"]
-  
-%>
-
 <div id="post_wrapper">
   <div id="container">
       <div class="contents">
         <div class="recipe_list" id="index">
-          <% posts.each do |post| %>
+          <% @posts.each do |post| %>
             <div class="list_box">
                 <%= image_tag('sample.jpg') %>
-                <p><%= post.all %></p>
+                <p><%= post.title %></p>
             </div>
           <% end %>    
         </div>
-    </div>
+      </div>
   </div>    
 </div>
