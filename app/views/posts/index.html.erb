@@ -5,7 +5,7 @@
           <% @posts.each do |post| %>
             <div class="list_box">
                 <%= image_tag('sample.jpg') %>
-                <p><%= post.title %></p>
+                <p><%= link_to(post.title,"/posts/:id") %></p>
             </div>
           <% end %>    
         </div>
