@@ -3,17 +3,17 @@
     <div class="contents">
       <div class="show_box" id="show_title">
         <h2>
-          recipe title
+          <%= @post.title %>
         </h2>
         <%= image_tag('sample.jpg') %>
         <h3>材料</h3>
         <div class="ingredients_list">
-          aaaa
+          <%= @post.zairyo %>
         </div>
         <div class="recipe_point">
         <h3>作り方＆コツ</h3>
         <div class="recipe_step">
-           aaaa
+           <%= @post.step %>
         </div>
       </div>
       
@@ -27,8 +27,8 @@
           
       </div>
       <div class="modoru">
-        <div class="back_btn">
-          戻る
+        <div class="btn-recipe">
+          <%= link_to("戻る","/posts/index") %>
         </div>
       </div>
     </div>
