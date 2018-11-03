@@ -1,0 +1,29 @@
+<div id="post_wrapper">
+  <div id="container">
+    <div class="contents">
+      <div class="new_box" id="new">
+        <h2>レシピを作成する</h2>
+        <%= form_tag("/posts/#{@post.id}/update") do %>
+          <div class="form">
+            <div class="form-body">
+              <h3>タイトル</h3>
+              <input class="title" name="title" value="<%= @post.title %>">
+              <h3>写真</h3>
+              <h3>材料</h3>
+              <textarea name="zairyo"><%= @post.zairyo %></textarea>
+              <h3>作り方＆コツ</h3>
+              <textarea name="step"><%= @post.step %></textarea>
+              <input type="submit" value="投稿">
+            </div>
+          </div>
+        <% end %>
+          
+      </div>
+      <div class="modoru">
+        <div class="btn-recipe">
+          <%= link_to("戻る","/posts/index") %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
