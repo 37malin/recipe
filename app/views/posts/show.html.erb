@@ -8,12 +8,12 @@
         <%= image_tag('sample.jpg') %>
         <h3>材料</h3>
         <div class="ingredients_list">
-          <%= @post.zairyo %>
+          <p><%= simple_format(@post.zairyo) %></p>
         </div>
         <div class="recipe_point">
         <h3>作り方＆コツ</h3>
         <div class="recipe_step">
-           <%= @post.step %>
+           <p><%= simple_format(@post.step) %></p>
         </div>
       </div>
       
