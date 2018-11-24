@@ -3,17 +3,22 @@
     <div class="contents">
       <div class="new_box" id="new">
         <h2>レシピを作成する</h2>
-        <%= form_tag("/posts/create") do %>
+        <%= form_for("/posts/create") do |f| %>
           <div class="form">
             <div class="form-body">
-              <h3>タイトル</h3>
-              <input class="title" name="title">
-              <h3>写真</h3>
-              <h3>材料</h3>
-              <textarea name="zairyo"></textarea>
-              <h3>作り方＆コツ</h3>
-              <textarea name="step"></textarea>
-              <input type="submit" value="投稿">
+              <%= f.label :タイトル %>
+              <%= f.text_field :title, id: :title %>
+              
+              <%= f.label :写真 %>
+              <%= f.file_field :picture, id: :picture %>
+              
+              <%= f.label :材料 %>
+              <%= f.text_area :zairyo, id: :zairyo %>
+
+              <%= f.label :作り方＆コツ %>
+              <%= f.text_area :step, id: :step %>
+              
+              <%= f.submit :投稿 %>
             </div>
           </div>
         <% end %>
