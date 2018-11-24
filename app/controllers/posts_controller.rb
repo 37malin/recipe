@@ -37,4 +37,8 @@ class PostsController < ApplicationController
     redirect_to("/posts/index")
   end
   
+  def micropost_params
+    params.require(:micropost).permit(:content, :picture)
+  end
+  
 end

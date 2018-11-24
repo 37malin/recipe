@@ -5,7 +5,7 @@
         <h2>
           <%= @post.title %>
         </h2>
-        <%= image_tag('sample.jpg') %>
+        <%= image_tag posts.picture.url if posts.picture? %>
         <h3>材料</h3>
         <div class="ingredients_list">
           <p><%= simple_format(@post.zairyo) %></p>
