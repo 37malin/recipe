@@ -11,10 +11,9 @@ class PostsController < ApplicationController
     @post = Post.new
   end
   
-  
+
   def create
-    @post = Post.new(title: params[:title], zairyo: params[:zairyo], step: params[:step])
-    @post.save
+    params.require(:posts).permit(:title, :zairyo, :step, :picture)
     redirect_to("/posts/index")
   end
   

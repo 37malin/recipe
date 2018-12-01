@@ -3,7 +3,7 @@
     <div class="contents">
       <div class="new_box" id="new">
         <h2>レシピを作成する</h2>
-        <%= form_for("/posts/create") do |f| %>
+        <%= form_for @post do |f| %>
           <div class="form">
             <div class="form-body">
               <%= f.label :タイトル %>
