@@ -2,42 +2,44 @@ class PostsController < ApplicationController
   def index
     @posts = Post.all
   end
-  
+
   def show
     @post = Post.find_by(id: params[:id])
   end
-  
+
   def new
     @post = Post.new
   end
-  
+
 
   def create
-    params.require(:posts).permit(:title, :zairyo, :step, :picture)
-    redirect_to("/posts/index")
+    @post = Post.new(post_params)
+    if @post.save
+      redirect_to("/posts")
+    else
+      render 'new'
+    end
   end
-  
+
   def edit
     @post = Post.find_by(id: params[:id])
   end
-  
+
   def update
-    @post = Post.find_by(id: params[:id])
-    @post.title = params[:title]
-    @post.zairyo = params[:zairyo]
-    @post.step = params[:step]
-    @post.save
-    redirect_to("/posts/index")
+    if @post.update(post_params)
+      redirect_to("/posts")
+    else
+      render 'edit'
+    end
   end
-  
+
   def destroy
     @post = Post.find_by(id: params[:id])
     @post.destroy
-    redirect_to("/posts/index")
+    redirect_to("/posts")
   end
-  
-  def micropost_params
-    params.require(:micropost).permit(:content, :picture)
+
+  def post_params
+    params.require(:post).permit(:title, :zairyo, :step, :picture)
   end
-  
 end
