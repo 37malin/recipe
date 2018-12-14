@@ -4,7 +4,7 @@
         <div class="recipe_list" id="index">
           <% @posts.each do |post| %>
             <div class="list_box">
-                <%= link_to image_tag('sample.jpg'),"/posts/#{post.id}" %>
+                <%= link_to image_tag(post.picture),"/posts/#{post.id}" %>
                 <p><%= link_to(post.title,"/posts/#{post.id}") %></p>
             </div>
           <% end %>    
