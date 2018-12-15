@@ -1,0 +1,71 @@
+[33mcommit 644b23a01be22eec2e66679f34985bee64dadce2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sun Dec 2 13:08:11 2018 +0000
+
+    Modified Error4NewHTML
+
+[33mcommit 4a28aef8d92e0b9fac309c4623128f007a7656ad[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sat Dec 1 01:17:55 2018 +0000
+
+    [WIP] Modify NewHTML
+
+[33mcommit c98019f45f4399947fd308d26b7847f7d9ae8ae6[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sat Nov 24 11:33:41 2018 +0000
+
+    Modified NewHtmlFile
+
+[33mcommit 8c7048e2c5c0a28e37424092be665be4b7faf09d[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sat Nov 24 10:43:10 2018 +0000
+
+    Generate Uploader Picture
+
+[33mcommit 36b0c6eadfa60170c2c4b07b7800d3905f9041c1[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Fri Nov 16 23:19:18 2018 +0000
+
+    Modified SimpleFormat
+
+[33mcommit 30d1f2862099bf25335ed89aa6a11963a507d76e[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Fri Nov 9 23:48:38 2018 +0000
+
+    Modified destroy
+
+[33mcommit 9e547d184286516da068077b7e9fadd98633f8e1[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sat Nov 3 01:16:11 2018 +0000
+
+    Create Edit
+
+[33mcommit ad10fbeb0840187fcaad4a1e6305c842ca202234[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sat Oct 27 00:02:59 2018 +0000
+
+    Modified db
+
+[33mcommit 6c602f51a3a5c6b39bfb0af63a380c4100455e30[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Wed Oct 24 14:49:32 2018 +0000
+
+    Modified Myfolder
+
+[33mcommit 88dfa14d7b06ec08dc97cc01184aed2df4b219a3[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Sat Oct 20 00:23:21 2018 +0000
+
+    IndexPage Modified
+
+[33mcommit ffa0452dfc51f23e9b73e548aee30dacdce9d0d6[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Fri Oct 19 23:33:10 2018 +0000
+
+    Update Gemfile for Heroku
+
+[33mcommit baaab3441dcfb12bce29934f474fbb8e8d6afdc8[m
+Author: EC2 Default User <ec2-user@ip-172-31-18-212.ap-southeast-1.compute.internal>
+Date:   Fri Oct 19 23:18:46 2018 +0000
+
+    Initialize repository
